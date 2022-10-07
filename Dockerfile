@@ -1,4 +1,4 @@
-FROM anasty17/mltb:heroku
+FROM ghcr.io/amirulandalib/mltb-alpine-docker:latest
 
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
